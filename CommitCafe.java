@@ -7,13 +7,13 @@ public class CommitCafe {
 
     public static void brew(String drink) {
         cups++;
-        System.out.println("[BREW] " + baristaNickname + " made a " + drink + ".");
+        System.out.println("[BREW] " + baristaNickname + " brewed a " + drink + ".");
         System.out.println("[BOT CHECK] drink length = " + drink.length());
         System.out.println("[BREW] " + baristaNickname + " has made " + cups + " cups so far.");
     }
 
     public static void printSummary() {
-        System.out.println("[SUMMARY] " + barista + " made " + cups + " cups today.");
+        System.out.println("[SUMMARY] " + barista + " brewed " + cups + " cups today.");
     }
 
     public static void main(String[] args) {
